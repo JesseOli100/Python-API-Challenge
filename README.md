@@ -104,4 +104,6 @@ Ensure that your repository has regular commits and a thorough README.md file.
 
 Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. Good luck!
 
-# 
+# Sources
+
+
