@@ -28,3 +28,37 @@ To fulfill the second requirement, compute the linear regression for each relati
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image
 
+![Snip20231128_3](https://github.com/JesseOli100/Python-API-Challenge/assets/62526904/b3800d15-549a-4801-a708-2b820311cebf)
+
+You should create the following plots:
+
+Northern Hemisphere: Temperature vs. Latitude
+
+Southern Hemisphere: Temperature vs. Latitude
+
+Northern Hemisphere: Humidity vs. Latitude
+
+Southern Hemisphere: Humidity vs. Latitude
+
+Northern Hemisphere: Cloudiness vs. Latitude
+
+Southern Hemisphere: Cloudiness vs. Latitude
+
+Northern Hemisphere: Wind Speed vs. Latitude
+
+Southern Hemisphere: Wind Speed vs. Latitude
+
+After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
+
+Part 2: VacationPy
+In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
+
+The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
+
+Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
+
+To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
+
+Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+
+
