@@ -113,6 +113,28 @@ Lastly, remember that this is a challenging activity. Push yourself! If you comp
 
 • Used StackOverFlow and ChatGPT for issues on the code and/or to explain why certain pieces of the script were not running as intended
 
+# Notes
+
+What is the code supposed to be doing? What is the purpose of this exercise? 
+
+The first point of this exercise is to make sure that we can integrate using our API Keys into a GitHub environment while hiding them at the same time. The second point of the exercise is to toggle with the dataframes to make sure that we are able to use the various Python libraries that are capable of generating various plots, maps, coordinates, etc. 
+
+Syntax Learned:
+
+•	%%capture – is used to capture the output of a cell and store it in a variable
+
+•	--no-display – is specific to Jupyter Notebooks and is used to suppress the automatic display of the captured output 
+
+•	!pip install cartopy – is used to install the Cartopy library using the pip package manager. Cartopy is a library for cartopgraphic projections and geospatial data visualization in Python. It is particularly useful for creating maps and working with geographical data.
+
+•	!pip install geoviews – is used to install the GeoViews library using the pip package manager. GeoViews is an open-source Python library designed for easy creation and exploration of interactive geographical visualizations. 
+
+•	!pip install pyproj – is used to install the pyproj library using the pip package manager. Pyproj is an interface PROJ library, which is used for performing cartographic projections and transformations. 
+
+•	.iterrrows(): - is a method that returns an iterator yielding index and row data as pairs. It is used to iterate over the rows of a dataframe, providing access to both the index and the row data for each iteration.
+
+•	.json() – It parses the content of an HTTP response that is in JSON format
+
 - - -
 
 This is submitted by Jesse Olivarez for the University of Utah: Data Analytics Bootcamp
